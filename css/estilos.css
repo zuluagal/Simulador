@@ -1,0 +1,212 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'M PLUS 1 Code', sans-serif;
+}
+
+.contenedor{
+	max-width: 1280px;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+}
+
+.logobank{
+	width: 80px;
+	height: 55px;
+}
+
+.logodiv{
+	display: flex;
+	margin-left: 0;
+}
+
+.redessociales{
+	display: flex;
+	justify-content: flex-end;
+	background-color: #272415;
+	padding: 5px 5px 5px 5px;
+}
+
+.redessociales i{
+	height: 18px;
+	margin-right: 25px;
+	color: #97D2FB;
+}
+
+
+
+.menu{
+	background-color: #97D2FB;
+	color: #000000;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.logo{
+	text-align: left;
+}
+
+.menu a{
+color: #000000;
+}
+
+.lista{
+	display: flex;
+	list-style: none;
+}
+
+li{
+	margin-right: 25px;
+}
+
+li a{
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #ffffff;
+}
+
+
+.fondop{
+text-align: justify;
+padding: 20px;
+}
+
+.fondo{
+ text-align: justify;
+}
+
+.fondoimg{
+	width: 90%;
+	height: 200px;
+	border-radius: 15px;
+}
+/*----------  SLIDER  ----------*/
+
+.slider{
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.slider img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.slider input[type="radio"] {
+    position: relative;
+    z-index: 50;
+    margin: 10px;
+}
+
+.slider input[type="radio"]:checked ~ img {
+    opacity: 1;
+}
+
+
+
+/* -----SIMULADOR------ */
+.monto-minimo{
+	font-size: 13px;
+	color: rgba(0,0,0,.54);
+}
+
+.simulador{
+	text-align: left;
+}
+
+
+
+.btn{
+	background-color: #97D2FB;
+	color: #000000;
+}
+
+.btn:hover{
+	background-color: #31A1EF;
+	color: #ffffff;
+}
+
+/*-------------------*/
+
+
+.contenido-pag{
+	margin-top: 10px;
+}
+
+.card{
+	padding: 20px;
+	margin-bottom: 45px;
+}
+
+.indexp{
+text-align: justify;
+}
+
+.ciudadimg, .indeximg{
+	height: 240px;
+	border-radius: 18px;
+}
+
+
+.telefono{
+	width: 30px;
+	height: auto;
+}
+
+.mision, .sobrenosotros{
+	display: flex;
+}
+
+.misionimg, .visionimg, .conozcanosimg{
+	width: 600px;
+	height: 300px;
+	border-radius: 18px;
+}
+
+.conozcanosimg{
+	margin-bottom: 10px;
+}
+
+.mision p {
+	padding: 40px;
+	text-align: justify;
+}
+
+.sobrenosotros{
+	text-align: justify;
+}
+
+
+h2{
+	align-items: center;
+}
+
+footer {
+	background-color:#1A1A1A;
+	height: 10%;
+   color: white;
+   padding: 15px;
+}
+
+
